@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-ground {
+  width: 600px;
+  height: 400px;
+  background-color: #333435;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-box {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  background-color: #690453;
+  text-align: center;
+  border-left: 10px rgb(1, 185, 1) solid;
+}
+
+.btn {
+  background-color: black;
+  color: #fff;
+  margin-top: 1em;
+  padding: 0.3em 1em;
+  border-radius: 0.5em 0.1em;
+}
+
+.ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+}
